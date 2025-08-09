@@ -1,0 +1,26 @@
+HELPDESC — FA-PWA
+
+Podstawowe informacje o aplikacji:
+
+1. Ekran główny:
+   - Kafelki prowadzą do poszczególnych modułów (Spotkania, Chat, Szkolenia, Oferty pracy, Kontakt).
+   - Kliknięcie kafla otwiera moduł.
+
+2. Nawigacja:
+   - Strzałka „← Wróć” w lewym dolnym rogu przenosi do ekranu głównego.
+   - Widoczna tylko na podstronach.
+
+3. Panel Admina:
+   - Dostępny tylko dla pracowników.
+   - Wymaga podania PIN-u.
+   - Po zalogowaniu dostępne moduły: Chat (edycja wiadomości), Spotkania (dodawanie), Szkolenia, Oferty pracy, Kontakt.
+
+4. PIN do panelu admina:
+   PIN: 4321
+
+5. Synchronizacja:
+   - Dane synchronizują się między telefonem a panelem admina w czasie rzeczywistym (Firebase).
+   - Push powiadomienia wysyłane po dodaniu treści w panelu admina.
+
+UWAGA:
+Nie udostępniaj PIN-u osobom nieupoważnionym.
